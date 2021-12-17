@@ -1,2 +1,4 @@
-const fs = require('fs')
-fs.writeFileSync('notes.txt','My name is Akshay Patel')
+require('./util.js')
+const name = 'Akshay'
+
+console.log(name)
